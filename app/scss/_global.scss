@@ -1,0 +1,46 @@
+body{
+    font-size: 20px;
+    line-height: 28px;
+    color: $default;
+    @extend %josefin-400;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title{
+    @extend %arimo-600;
+    font-size: 50px;
+    line-height: 130%;
+    color: $default;
+}
+.text{
+    font-size: 20px;
+    color: $gray;
+    @extend %josefin-500;
+}
+.btn{
+    @extend %arimo-500;
+    font-size: 22px;
+    color: $white;
+    background: $red;
+    max-width: fit-content;
+    padding: 18px 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+    svg{
+        transition: all .4s;
+    }
+    &:hover{
+        background: rgb(170 39 25);
+        transition: all .4s;
+
+        svg{
+            transform: translateX(10px);
+        }
+    }
+}

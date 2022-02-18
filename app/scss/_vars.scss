@@ -1,0 +1,41 @@
+$default: rgb(1, 22, 15);
+$lightdef: #f3f6f9;
+$red: #eb3d35;
+$white: #fff;
+$gray: #747887;
+$lightgray: #e5e4e1;
+
+
+%arimo-400{
+    font-family: 'Arimo-Regular', sans-serif;
+    font-weight: 400;
+}
+%arimo-500{
+    font-family: 'Arimo-Medium', sans-serif;
+    font-weight: 500;
+}
+%arimo-600{
+    font-family: 'Arimo-SemiBold', sans-serif;
+    font-weight: 600;
+}
+%josefin-700{
+    font-family: 'JosefinSans-Bold', sans-serif;
+    font-weight: 700;
+}
+%josefinI-500{
+    font-family: 'JosefinSans-MediumItalic', inherit;
+    font-weight: 500;
+    font-style: italic;
+}
+%josefin-500{
+    font-family: 'JosefinSans-Medium', sans-serif;
+    font-weight: 500;
+}
+%josefin-400{
+    font-family: 'JosefinSans-Regular', sans-serif;
+    font-weight: 400;
+}
+%josefin-300{
+    font-family: 'JosefinSans-Light', sans-serif;
+    font-weight: 300;
+}
